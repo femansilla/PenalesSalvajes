@@ -1,0 +1,245 @@
+# depslib dependency file v1.0
+1415818188 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clsaudio.cpp
+	"clsAudio.h"
+
+1415818188 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clsaudio.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1432327182 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\adnconsts.h
+	<SDL/SDL.h>
+	<SDL/SDL_video.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<SDL.h>
+	<SDL_video.h>
+	"SDL_image.h"
+	"SDL_ttf.h"
+	"SDL_mixer.h"
+
+1415818188 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clserror.h
+
+1415818188 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clsdot.cpp
+	"clsDot.h"
+
+1415818188 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clsdot.h
+	"adnConsts.h"
+
+1432327228 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clserror.cpp
+	<cstring>
+	<iostream>
+	"clsError.h"
+
+1415818188 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clsevent.cpp
+	"clsEvent.h"
+
+1415818188 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clsevent.h
+	"adnConsts.h"
+
+1415818188 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clsimage.cpp
+	"clsImage.h"
+
+1415818188 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clsimage.h
+	"adnConsts.h"
+	"clsError.h"
+
+1415818188 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clslog.cpp
+	"clsLog.h"
+
+1415818188 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clslog.h
+	<cstdio>
+
+1415818188 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clsmode.cpp
+	"clsMode.h"
+
+1415818188 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clsmode.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1415818188 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clsmusic.cpp
+	"clsMusic.h"
+
+1415818188 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clsmusic.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1415818188 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clsrandom.cpp
+	"clsRandom.h"
+
+1415818188 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clsrandom.h
+	<ctime>
+	<cstdlib>
+	<iostream>
+
+1415818188 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clsscreen.cpp
+	"clsScreen.h"
+
+1415818188 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clsscreen.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1415818188 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clssoundeffect.cpp
+	"clsSoundEffect.h"
+
+1415818188 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clssoundeffect.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1528413774 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clssprite.cpp
+	"clsSprite.h"
+
+1528413424 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clssprite.h
+	<iostream>
+	<cstring>
+	"adnConsts.h"
+	"clsError.h"
+	"clsDot.h"
+	"clsImage.h"
+	"clsDot.h"
+	"clsScreen.h"
+
+1443039972 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clstext.cpp
+	"clsText.h"
+
+1415818188 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clstext.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1415818188 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clstimer.cpp
+	"clsTimer.h"
+
+1415818188 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\adn-x\clstimer.h
+	"clsEvent.h"
+
+1509057636 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\main.cpp
+	<iostream>
+	<adnConsts.h>
+	<clsLog.h>
+	<clsError.h>
+	<clsMotor.h>
+	<clsMaso.h>
+
+1528411753 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\include\clsmotor.h
+	<clsError.h>
+	<clsEvent.h>
+	<clsMode.h>
+	<clsScreen.h>
+	<adnConsts.h>
+	<clsGame.h>
+	"clsPresentacion.h"
+
+1528412528 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\src\clsmotor.cpp
+	"clsMotor.h"
+
+1528415005 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\include\clspresentacion.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<adnConsts.h>
+	<clsButton.h>
+	<clsError.h>
+	<clsFondo.h>
+
+1528413861 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\include\clsfondo.h
+	<clsSprite.h>
+	<clsScreen.h>
+	<clsEvent.h>
+	<clsError.h>
+
+1528412852 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\src\clsfondo.cpp
+	"clsFondo.h"
+
+1528415005 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\src\clspresentacion.cpp
+	"clsPresentacion.h"
+
+1508459434 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\include\pika.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<adnConsts.h>
+	<clsError.h>
+	<clsFondo.h>
+	<clsSprite.h>
+
+1508459223 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\src\pika.cpp
+	"pika.h"
+
+1509058882 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\include\clsmaso.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<adnConsts.h>
+	<clsError.h>
+	<clsSprite.h>
+
+1509062424 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\src\clsmaso.cpp
+	"clsMaso.h"
+
+1509065718 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\src\clscartas.cpp
+	"clsCartas.h"
+
+1509065743 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\include\clscartas.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<adnConsts.h>
+	<clsError.h>
+	<clsSprite.h>
+
+1528411465 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\include\clsgame.h
+	<iostream>
+	"clsJugador.h"
+	"clsArco.h"
+	"clsArquero.h"
+	"clsPelota.h"
+
+1528153179 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\src\clsgame.cpp
+	"clsGame.h"
+
+1528411477 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\include\clsjugador.h
+	"clsError.h"
+	"clsImage.h"
+	"clsEvent.h"
+	"clsScreen.h"
+
+1528411547 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\include\clsarco.h
+	"clsError.h"
+	"clsImage.h"
+	"clsEvent.h"
+	"clsScreen.h"
+
+1528411499 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\include\clsarquero.h
+	"clsJugador.h"
+	"clsError.h"
+	"clsImage.h"
+	"clsEvent.h"
+	"clsScreen.h"
+
+1528411087 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\include\clspelota.h
+	"clsError.h"
+	"clsImage.h"
+	"clsEvent.h"
+	"clsScreen.h"
+
+1528411558 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\src\clsarco.cpp
+	"clsArco.h"
+
+1528411569 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\src\clsarquero.cpp
+	"clsArquero.h"
+
+1528411575 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\src\clspelota.cpp
+	"clsPelota.h"
+
+1528411580 source:c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\src\clsjugador.cpp
+	"clsJugador.h"
+
+1528414564 c:\users\francisco mansilla\documents\laboratorio programacion 2\prueba adn-x\include\clsbutton.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<adnConsts.h>
+	<clsError.h>
+	<clsSprite.h>
+
