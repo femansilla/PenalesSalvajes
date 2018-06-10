@@ -3,8 +3,8 @@
 int clsPresentacion::init(clsScreen *scr, clsEvent *ev)
 {
     error.set(0);
-    this->screen = scr;
-    this->event = ev;
+    screen = scr;
+    event = ev;
 
     error.set(fondo.init(screen, event));
     if (error.get()) return error.get();
@@ -21,6 +21,9 @@ int clsPresentacion::init(clsScreen *scr, clsEvent *ev)
     error.set(boton_salir.init(screen, event));
     if (error.get()) return error.get();
 
+    error.set(juego.init(screen, event));
+    if (error.get()) return error.get();
+
     return error.get();
 }
 
@@ -29,17 +32,6 @@ int clsPresentacion::run()
     error.set(0);
     screen->clean(CYAN);              //Limpio la pantalla
     fondo.PantallaPrincipal();
-    screen->refresh();
-//    while(true)  //Ciclo del programa
-//    {
-//        if(event->wasEvent())  //Verifico si hay evento
-//        {
-//            if(event->getEventType() == KEY_PRESSED)  //Verifico si hay evento de teclado
-//            {
-//                mouseCommand(event->getKey());
-//            }
-//        }
-//    }
 
     continuar.setButton(14);
     error.set(continuar.setPath());
@@ -61,8 +53,17 @@ int clsPresentacion::run()
     if (error.get()) return error.get();
     boton_salir.mostrar((screen->getHeight()/2), 510);
 
-    while(true){
-        cout<<"xD"<<endl;
+    screen->refresh();
+
+    while(true)  //Ciclo del programa
+    {
+        if(event->wasEvent())  //Verifico si hay evento
+        {
+            if(event->getEventType() == MOUSE_DOWN)  //Verifico si hay evento de teclado
+            {
+                mouseCommand(event->getKey());
+            }
+        }
     }
     return error.get();
 }
@@ -70,4 +71,23 @@ int clsPresentacion::run()
 int clsPresentacion::mouseCommand(Uint16 key){
 
     error.set(0);
+
+    if(continuar.pressed()){
+        cout << "clic continuar";
+    }
+
+    if(jugar.pressed()){
+        error.set(juego.run());
+        if (error.get()) return error.get();
+    }
+
+    if(ayuda.pressed()){
+            cout << "clic ayuda";
+    }
+
+    if(boton_salir.pressed()){
+        cout << "clic salir";
+        exit(0);
+    }
+    return error.get();
 }

@@ -7,8 +7,8 @@ int clsMotor::init()
     error.set(mode.init(DEFAULT));
     if (error.get()) return error.get();
 
-    error.set(screen.init( 1025, //mode.getScrWidth(),
-                          512,//mode.getScrHeight(),
+    error.set(screen.init( 1280, //mode.getScrWidth(),
+                          600,//mode.getScrHeight(),
                           mode.getScrDepth(),
                           ENABLED,
                           RESIZABLE

@@ -1,23 +1,32 @@
 #ifndef CLSGAME_H
 #define CLSGAME_H
-#include <iostream>
+#include <clsError.h>
+#include <clsEvent.h>
+#include <clsScreen.h>
+#include <clsButton.h>
 #include "clsJugador.h"
 #include "clsArco.h"
 #include "clsArquero.h"
 #include "clsPelota.h"
+#include "clsGame.h"
 
 using namespace std;
 class clsGame
 {
     private:
-        clsPelota ball();
-        clsJugador player();
-        clsArquero arquero();
-        clsArco arco();
+        clsError error;
+        clsEvent *event;
+        clsScreen *screen;
+
+        clsPelota ball;
+        clsJugador player;
+        clsArquero arquero;
+        clsArco arco;
 
     public:
-        clsGame();
+        int init(clsScreen*, clsEvent*);
         int run();
+        //hacer un screen para los niveles y el ayuda, ver con seba
 };
 
 #endif // CLSGAME_H

@@ -1,16 +1,28 @@
 #ifndef CLSARCO_H
 #define CLSARCO_H
-#include "clsError.h"
-#include "clsImage.h"
-#include "clsEvent.h"
-#include "clsScreen.h"
+#include <clsScreen.h>
+#include <clsEvent.h>
+#include <adnConsts.h>
+#include <clsError.h>
+#include <clsFondo.h>
 
-class clsArco
+class clsArco : public clsSprite
 {
     private:
-        int matriz[20][20];
+        clsScreen* screen;
+        clsEvent* event;
+        clsError error;
+        clsFondo fondo;
+
+        int matriz[5][4];
         bool gol; //(adentro/afuera)
+
+    protected:
+        void inherit(){};
+
     public:
+        int init(clsScreen *, clsEvent *);
+        void mostrarArco();
         bool entro(int posx, int posy, int potencia); //1 si fue adentro del arco
 };
 

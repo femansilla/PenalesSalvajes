@@ -1,6 +1,5 @@
 #ifndef CLSFONDO_H
 #define CLSFONDO_H
-
 #include <clsSprite.h>
 #include <clsScreen.h>
 #include <clsEvent.h>
@@ -17,7 +16,6 @@ protected:
 public:
     int init(clsScreen*,clsEvent*);
     void PantallaPrincipal();
-    void fondo01();
     void fondo02();
 };
 
