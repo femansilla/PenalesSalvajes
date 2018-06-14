@@ -1,15 +1,26 @@
 #ifndef CLSJUGADOR_H
 #define CLSJUGADOR_H
-#include "clsError.h"
-#include "clsImage.h"
-#include "clsEvent.h"
-#include "clsScreen.h"
+#include <clsScreen.h>
+#include <clsEvent.h>
+#include <adnConsts.h>
+#include <clsButton.h>
+#include <clsError.h>
 
-class clsJugador
+class clsJugador  : public clsSprite
 {
-    private:
-        int potencia, posX, posY = 0;
+    protected:
+        void inherit() {};
+
+        clsScreen* screen;
+        clsEvent* event;
+        clsError error;
+
+        int dificultad, potencia, posX, posY = 0;
     public:
+        int init(clsScreen *, clsEvent *);
+        void mostrar();
+        void setDificultad(int);
+        void setPotencia(int);
         bool patear(int posx, int posy, int potencia); //devuelve 1 si fue gol
 };
 

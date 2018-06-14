@@ -8,6 +8,9 @@
 
 class clsArquero : public clsJugador
 {
+    protected:
+        void inherit() {};
+
     private:
         bool atajo; // (true, adentro / false, afuera)
         int nivel; // (% dificultad, posibilidad de atajar
@@ -16,7 +19,10 @@ class clsArquero : public clsJugador
                     //		alta:80%
                     //		)
      public:
-        bool atajar(int posx, int posy, int nivel); //1 si atajo
+         int init(clsScreen *, clsEvent *);
+         void mostrarArquero();
+         bool atajar(int posx, int posy, int nivel); //1 si atajo
+
 };
 
 #endif // CLSARQUERO_H

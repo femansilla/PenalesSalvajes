@@ -1,15 +1,25 @@
 #ifndef CLSPELOTA_H
 #define CLSPELOTA_H
-#include "clsError.h"
-#include "clsImage.h"
-#include "clsEvent.h"
-#include "clsScreen.h"
+#include <clsScreen.h>
+#include <clsEvent.h>
+#include <adnConsts.h>
+#include <clsButton.h>
+#include <clsError.h>
 
-class clsPelota
+class clsPelota : public clsSprite
 {
+    protected:
+        void inherit(){};
     private:
+        clsScreen* screen;
+        clsEvent* event;
+        clsError error;
+
         int potencia, posX, posY = 0;
         bool gol; //(true, adentro / false, afuera)
+    public:
+        int init(clsScreen *, clsEvent *);
+        void mostrarPelota();
 };
 
 #endif // CLSPELOTA_H

@@ -3,6 +3,7 @@
 #include <clsScreen.h>
 #include <clsEvent.h>
 #include <adnConsts.h>
+#include <clsButton.h>
 #include <clsError.h>
 #include <clsFondo.h>
 
@@ -14,7 +15,7 @@ class clsArco : public clsSprite
         clsError error;
         clsFondo fondo;
 
-        int matriz[5][4];
+        clsButton matriz[5][4];
         bool gol; //(adentro/afuera)
 
     protected:
