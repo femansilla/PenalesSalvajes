@@ -13,10 +13,8 @@ int clsButton::init(clsScreen *scr, clsEvent *ev)
 void clsButton::mostrar(int x, int y)
 {
     setI(button);
-
     setX(x - getWidth()/2);
     setY(y - getHeight()/2);
-
     paste(screen->getPtr());
 }
 
@@ -80,7 +78,7 @@ int clsButton::setPath()
         strcpy(boton,"realEnvido");
         break;
     case 3:
-        strcpy(boton,"faltaEnvido");
+        strcpy(boton,"presed");
         break;
     case 4:
         strcpy(boton,"truco");

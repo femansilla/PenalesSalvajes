@@ -28,8 +28,11 @@ int clsGame::run()
     arquero.mostrarArquero();
     player.setDificultad(4);
     //player.setPotencia(5);
-    if(player.patear(2,8,4))
-        player.mostrar();
+    if(!player.patear(2,8,4))
+        player.mostrar(player.getWidth()+550,
+                       player.getHeight()+500);
+    arco.mostrarPos();
+
     //player.mostrar();
 }
 

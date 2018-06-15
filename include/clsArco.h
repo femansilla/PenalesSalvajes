@@ -15,7 +15,7 @@ class clsArco : public clsSprite
         clsError error;
         clsFondo fondo;
 
-        clsButton matriz[5][4];
+        clsButton matrizArco[5][4];
         bool gol; //(adentro/afuera)
 
     protected:
@@ -24,6 +24,7 @@ class clsArco : public clsSprite
     public:
         int init(clsScreen *, clsEvent *);
         void mostrarArco();
+        void mostrarPos();
         bool entro(int posx, int posy, int potencia); //1 si fue adentro del arco
 };
 

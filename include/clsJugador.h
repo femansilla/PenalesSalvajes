@@ -18,7 +18,7 @@ class clsJugador  : public clsSprite
         int dificultad, potencia, posX, posY = 0;
     public:
         int init(clsScreen *, clsEvent *);
-        void mostrar();
+        void mostrar(int, int);
         void setDificultad(int);
         void setPotencia(int);
         bool patear(int posx, int posy, int potencia); //devuelve 1 si fue gol

@@ -726,15 +726,13 @@ bool clsSprite::getMatch(clsSprite* spr)
 //-----------------------------------------------------------------------------
 bool clsSprite::wasClick(int x, int y)
 {
-    bool retorno = false;
-
     if( x >= getX() &&
         x <= (getX() + getWidth()) &&
         y >= getY() &&
         y <= (getY() + getHeight()) )
-            retorno = true;
+            return true;
 
-    return retorno;
+    return false;
 }
 
 //### FIN DE ARCHIVO ##########################################################
