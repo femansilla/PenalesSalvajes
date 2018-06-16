@@ -22,10 +22,12 @@ class clsGame
         clsJugador player;
         clsArquero arquero;
         clsArco arco;
+        clsButton potencyBar[5];
 
     public:
         int init(clsScreen*, clsEvent*);
         int run();
+        int setPotencyBar();
         //hacer un screen para los niveles y el ayuda, ver con seba
 };
 

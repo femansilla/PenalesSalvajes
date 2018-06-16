@@ -379,7 +379,7 @@
 	<clsGame.h>
 	"clsPresentacion.h"
 
-1528904142 c:\users\francisco mansilla\documents\github\penalessalvajes\include\clsgame.h
+1529112749 c:\users\francisco mansilla\documents\github\penalessalvajes\include\clsgame.h
 	<clsError.h>
 	<clsEvent.h>
 	<clsScreen.h>
@@ -428,7 +428,7 @@
 	<clsFondo.h>
 	<clsGame.h>
 
-1528904140 c:\users\francisco mansilla\documents\github\penalessalvajes\include\clsbutton.h
+1529111648 c:\users\francisco mansilla\documents\github\penalessalvajes\include\clsbutton.h
 	<clsScreen.h>
 	<clsEvent.h>
 	<adnConsts.h>
@@ -448,19 +448,19 @@
 	<clsError.h>
 	<clsSprite.h>
 
-1529071056 source:c:\users\francisco mansilla\documents\github\penalessalvajes\src\clsarco.cpp
+1529105601 source:c:\users\francisco mansilla\documents\github\penalessalvajes\src\clsarco.cpp
 	"clsArco.h"
 
 1529071170 source:c:\users\francisco mansilla\documents\github\penalessalvajes\src\clsarquero.cpp
 	"clsArquero.h"
 
-1529023026 source:c:\users\francisco mansilla\documents\github\penalessalvajes\src\clsbutton.cpp
+1529111776 source:c:\users\francisco mansilla\documents\github\penalessalvajes\src\clsbutton.cpp
 	"clsButton.h"
 
 1528904144 source:c:\users\francisco mansilla\documents\github\penalessalvajes\src\clsfondo.cpp
 	"clsFondo.h"
 
-1529022840 source:c:\users\francisco mansilla\documents\github\penalessalvajes\src\clsgame.cpp
+1529114126 source:c:\users\francisco mansilla\documents\github\penalessalvajes\src\clsgame.cpp
 	"clsGame.h"
 
 1529018391 source:c:\users\francisco mansilla\documents\github\penalessalvajes\src\clsjugador.cpp

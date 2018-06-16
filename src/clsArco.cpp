@@ -33,8 +33,10 @@ void clsArco::mostrarArco()
         {
             matrizArco[x][y].setButton(/*3*/10);
             error.set(matrizArco[x][y].setPath());
-            //matrizArco[x][y].mostrar(x*matrizArco[x][y].getWidth()+240,
-            //                         y*matrizArco[x][y].getHeight()+140);
+            matrizArco[x][y].setX(x*matrizArco[x][y].getWidth()+240);
+            matrizArco[x][y].setY(y*matrizArco[x][y].getHeight()+140);
+//            matrizArco[x][y].mostrar(x*matrizArco[x][y].getWidth()+240,
+//                                    y*matrizArco[x][y].getHeight()+140);
         }
     }
 
@@ -43,27 +45,15 @@ void clsArco::mostrarArco()
 
 void clsArco::mostrarPos()
 {
-    while(true){
-
-     if(event->wasEvent())
+    for(x = 0; x < 5; x++)
+    {
+        for( y = 0; y < 4; y++)
         {
-            if(event->getEventType() == MOUSE_DOWN)
-            {
-                for(x = 0; x < 5; x++)
-                {
-                    for( y = 0; y < 4; y++)
-                    {
 
-                        if(matrizArco[x][y].pressed())
-                        {
-                            cout << "fernando\n";
-                            matrizArco[x][y].mostrar(x*matrizArco[x][y].getWidth()+240,
-                                                     y*matrizArco[x][y].getHeight()+140);
-                        }
-                    }
-                }
-                cout<<"termine"<<endl;
-                break;
+            if(matrizArco[x][y].pressed())
+            {
+                matrizArco[x][y].mostrar(x*matrizArco[x][y].getWidth()+240,
+                                         y*matrizArco[x][y].getHeight()+140);
             }
         }
     }

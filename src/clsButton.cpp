@@ -141,6 +141,39 @@ int clsButton::setPath()
     if(error.get()) return error.get();
 }
 
+int clsButton::setPathPotencyBar()
+{
+    error.set(0);
+    char boton[100]= {0};
+    used = true;
+
+    switch (button)
+    {
+    case 0:
+        strcpy(boton,"barPotency00");
+        break;
+    case 1:
+        strcpy(boton,"barPotency01");
+        break;
+    case 2:
+        strcpy(boton,"barPotency02");
+        break;
+    case 3:
+        strcpy(boton,"barPotency03");
+        break;
+    case 4:
+        strcpy(boton,"barPotency04");
+        break;
+    }
+
+    strcpy(path, "IMAGENES/barPotency/");
+    strncat(path, boton,strlen(boton));
+    strcat(path, ".PNG");
+    setUsed(false);
+    error.set(load(path));
+    if(error.get()) return error.get();
+}
+
 bool clsButton::pressed()
 {
     return wasClick(event->getCursorX(), event->getCursorY());

@@ -8,7 +8,7 @@ int clsArquero::init(clsScreen *scr, clsEvent *ev)
     event = ev;
     setItems(1);
 
-    error.set(load("IMAGENES/portero/portero02.png"));
+    error.set(load("IMAGENES/portero/portero05.png"));
     if(error.get()) return error.get();
 }
 

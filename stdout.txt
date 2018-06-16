@@ -28,4 +28,9 @@ boton iniciado correctamente.
 boton iniciado correctamente.
 boton iniciado correctamente.
 boton iniciado correctamente.
-termine
+boton iniciado correctamente.
+boton iniciado correctamente.
+boton iniciado correctamente.
+boton iniciado correctamente.
+boton iniciado correctamente.
+rtn: 0

@@ -35,6 +35,7 @@ class clsButton : public clsSprite
 
         char *getPath(){return path;};
         int setPath();
+        int setPathPotencyBar();
 
         void mostrar(int, int);
 
