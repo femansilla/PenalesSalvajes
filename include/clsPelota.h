@@ -19,7 +19,7 @@ class clsPelota : public clsSprite
         bool gol; //(true, adentro / false, afuera)
     public:
         int init(clsScreen *, clsEvent *);
-        void mostrarPelota();
+        void mostrarPelota(int, int);
 };
 
 #endif // CLSPELOTA_H

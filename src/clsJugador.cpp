@@ -7,6 +7,7 @@ int clsJugador::init(clsScreen *scr, clsEvent *ev)
     event = ev;
     setItems(1);
 
+    random.init();
     error.set(load("IMAGENES/player/p11.PNG"));
     if(error.get())
         return error.get();
@@ -19,7 +20,7 @@ void clsJugador::setDificultad(int variableParaUsarComoParametroEnElIFDeDificult
 
 void clsJugador::setPotencia(int putencio)
 {
-    dificultad = putencio;
+    potencia = putencio;
 }
 
 void clsJugador::mostrar(int x, int y)
@@ -30,14 +31,121 @@ void clsJugador::mostrar(int x, int y)
     screen->refresh();
 }
 
-bool clsJugador::patear(int posx, int posy, int potencia)
+bool clsJugador::patear()
 {
-    if(potencia >= dificultad && potencia <= dificultad)
-        return false;
-    else
+    cout << "La potencia es: "<<potencia<< endl;
+    int qw=random.getNumber(10)+1;
+    cout<<"ramdom vale "<<qw<<endl;
+    switch(potencia)
+    {
+    case 0:
+    {
+         cout << "La potencia deberia ser 0 pero es  "<<potencia<< endl;
+        /*entra derecho*/
         return true;
+    }
+    break;
+
+    case 1:
+    {
+        /*70% de posibilidad que entre*/
+        if(qw > 7){
+            cout<<"afuera "<<endl;
+            return false;
+        }
+        else
+            return true;
+    }
+    break;
+
+    case 2:
+    {
+        /*50% que entre*/
+        if(qw > 5){
+            cout<<"afuera "<<endl;
+            return false;
+        }
+        else
+            return true;
+    }
+    break;
+
+    case 3:
+    {
+        /*30%*/
+        if(qw > 3){
+            cout<<"afuera "<<endl;
+            return false;
+        }
+        else
+            return true;
+    }
+    break;
+
+    case 4:
+    {
+        /*patea bien gato, le resto 150 y se va afuera la pelota*/
+        return false;
+    }
+    break;
+
+    default:
+    {
+        return false;
+        /*puto el que lee*/
+    }
+    break;
+    }
 }
 
+bool clsJugador::patearCOM()
+{
+    int qw=random.getNumber(10)+1;
+    cout<<"ramdom vale "<<qw<<endl;
+    switch(dificultad)
+    {
+        // 0 es dificil
+    case 0:
+    {
+         cout << "La potencia deberia ser 0 pero es  "<<potencia<< endl;
+        /*entra derecho*/
+        return true;
+    }
+    break;
+    // 1 es medio
+    case 1:
+    {
+        /*70% de posibilidad que entre*/
+        if(qw > 7){
+            cout<<"afuera "<<endl;
+            return false;
+        }
+        else
+            return true;
+    }
+    break;
+
+    // 2 bajo
+    case 2:
+    {
+        /*50% que entre*/
+        if(qw > 5){
+            cout<<"afuera "<<endl;
+            return false;
+        }
+        else
+            return true;
+    }
+    break;
+
+    default:
+    {
+        return false;
+        /*puto el que lee*/
+    }
+    break;
+    }
+}
 
 //bool clsJugador::patear(int posx, int posy, int potencia)
 //{

@@ -30,7 +30,7 @@ int clsPresentacion::init(clsScreen *scr, clsEvent *ev)
 int clsPresentacion::run()
 {
     error.set(0);
-    screen->clean(CYAN);              //Limpio la pantalla
+    screen->clean(BLACK);              //Limpio la pantalla
     fondo.PantallaPrincipal();
 
     continuar.setButton(14);

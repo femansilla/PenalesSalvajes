@@ -23,14 +23,11 @@ boton iniciado correctamente.
 boton iniciado correctamente.
 boton iniciado correctamente.
 boton iniciado correctamente.
-boton iniciado correctamente.
-boton iniciado correctamente.
-boton iniciado correctamente.
-boton iniciado correctamente.
-boton iniciado correctamente.
-boton iniciado correctamente.
-boton iniciado correctamente.
-boton iniciado correctamente.
-boton iniciado correctamente.
-boton iniciado correctamente.
-rtn: 0
+Generador de numeros aleatorios iniciado correctamente.
+Generador de numeros aleatorios iniciado correctamente.
+La potencia es: 3
+ramdom vale 4
+afuera 
+x 437
+y 80
+entre a atajar y salir de patear

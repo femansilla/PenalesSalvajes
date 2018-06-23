@@ -7,15 +7,14 @@ int clsPelota::init(clsScreen *scr, clsEvent *ev)
     event = ev;
     setItems(1);
 
-    error.set(load("IMAGENES/Screen02.png"));
+    error.set(load("IMAGENES/buttons/btnpelota.png"));
     if(error.get()) return error.get();
-
-    setX(0);
-    setY(0);
 }
 
-void clsPelota::mostrarPelota(){
-    setI(0);
+void clsPelota::mostrarPelota(int x, int y){
+    cout<<"x "<<x<<endl;
+    cout<<"y "<<y<<endl;
+    setX(x);
+    setY(y);
     paste(screen->getPtr());
-    screen->refresh();
 }

@@ -38,7 +38,7 @@ class clsButton : public clsSprite
         int setPathPotencyBar();
 
         void mostrar(int, int);
-
+        void Setting(int, int);
         bool pressed();
 };
 

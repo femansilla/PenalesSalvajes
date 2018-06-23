@@ -18,6 +18,15 @@ void clsButton::mostrar(int x, int y)
     paste(screen->getPtr());
 }
 
+void clsButton::Setting(int x, int y)
+{
+    setI(button);
+    setX(x - getWidth()/2);
+    setY(y - getHeight()/2);
+    //paste(screen->getPtr());
+}
+
+
 bool clsButton::disabled()
 {
     error.set(0);
@@ -123,10 +132,10 @@ int clsButton::setPath()
         strcpy(boton,"guardarPartida");
         break;
     case 18:
-        strcpy(boton,"Quiero");
+        strcpy(boton,"presed");
         break;
     case 19:
-        strcpy(boton,"NoQuiero");
+        strcpy(boton,"pelota");
         break;
 
     }

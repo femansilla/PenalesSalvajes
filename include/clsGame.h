@@ -9,6 +9,8 @@
 #include "clsArquero.h"
 #include "clsPelota.h"
 #include "clsGame.h"
+#include "clsTimer.h"
+#include "clsMensaje.h"
 
 using namespace std;
 class clsGame
@@ -17,17 +19,17 @@ class clsGame
         clsError error;
         clsEvent *event;
         clsScreen *screen;
-
-        clsPelota ball;
-        clsJugador player;
         clsArquero arquero;
         clsArco arco;
-        clsButton potencyBar[5];
+        clsButton marcador;
+        clsMensaje mensaje;
+
 
     public:
         int init(clsScreen*, clsEvent*);
         int run();
-        int setPotencyBar();
+        void Marcador(bool);
+        void Indicador(bool);
         //hacer un screen para los niveles y el ayuda, ver con seba
 };
 

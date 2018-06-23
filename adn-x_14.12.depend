@@ -939,3 +939,484 @@
 1528907503 source:c:\users\fmansilla\desktop\penalessalvajes\src\clsarquero.cpp
 	"clsArquero.h"
 
+1529114786 source:c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clsaudio.cpp
+	"clsAudio.h"
+
+1529114786 c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clsaudio.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1529114786 c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\adnconsts.h
+	<SDL/SDL.h>
+	<SDL/SDL_video.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<SDL.h>
+	<SDL_video.h>
+	"SDL_image.h"
+	"SDL_ttf.h"
+	"SDL_mixer.h"
+
+1529114786 c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clserror.h
+
+1529114786 source:c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clsdot.cpp
+	"clsDot.h"
+
+1529114786 c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clsdot.h
+	"adnConsts.h"
+
+1529114786 source:c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clserror.cpp
+	<cstring>
+	<iostream>
+	"clsError.h"
+
+1529114786 source:c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clsevent.cpp
+	"clsEvent.h"
+
+1529114786 c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clsevent.h
+	"adnConsts.h"
+
+1529114786 source:c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clsimage.cpp
+	"clsImage.h"
+
+1529114786 c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clsimage.h
+	"adnConsts.h"
+	"clsError.h"
+
+1529114786 source:c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clslog.cpp
+	"clsLog.h"
+
+1529114786 c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clslog.h
+	<cstdio>
+
+1529114786 source:c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clsmode.cpp
+	"clsMode.h"
+
+1529114786 c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clsmode.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1529114786 source:c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clsmusic.cpp
+	"clsMusic.h"
+
+1529114786 c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clsmusic.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1529114786 source:c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clsrandom.cpp
+	"clsRandom.h"
+
+1529114786 c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clsrandom.h
+	<ctime>
+	<cstdlib>
+	<iostream>
+
+1529114786 source:c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clsscreen.cpp
+	"clsScreen.h"
+
+1529114786 c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clsscreen.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1529114786 source:c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clssoundeffect.cpp
+	"clsSoundEffect.h"
+
+1529114786 c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clssoundeffect.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1529114786 source:c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clssprite.cpp
+	"clsSprite.h"
+
+1529114786 c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clssprite.h
+	<iostream>
+	<cstring>
+	"adnConsts.h"
+	"clsError.h"
+	"clsDot.h"
+	"clsImage.h"
+	"clsDot.h"
+	"clsScreen.h"
+
+1529114786 source:c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clstext.cpp
+	"clsText.h"
+
+1529114786 c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clstext.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1529114786 source:c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clstimer.cpp
+	"clsTimer.h"
+
+1529114786 c:\users\fmansilla\downloads\penalessalvajes-master\adn-x\clstimer.h
+	"clsEvent.h"
+
+1529114786 source:c:\users\fmansilla\downloads\penalessalvajes-master\main.cpp
+	<iostream>
+	<adnConsts.h>
+	<clsLog.h>
+	<clsError.h>
+	<clsMotor.h>
+	<clsMaso.h>
+
+1529114786 c:\users\fmansilla\downloads\penalessalvajes-master\include\clsmotor.h
+	<clsError.h>
+	<clsEvent.h>
+	<clsMode.h>
+	<clsScreen.h>
+	<adnConsts.h>
+	<clsGame.h>
+	"clsPresentacion.h"
+
+1529114786 c:\users\fmansilla\downloads\penalessalvajes-master\include\clsgame.h
+	<clsError.h>
+	<clsEvent.h>
+	<clsScreen.h>
+	<clsButton.h>
+	"clsJugador.h"
+	"clsArco.h"
+	"clsArquero.h"
+	"clsPelota.h"
+	"clsGame.h"
+
+1529114786 c:\users\fmansilla\downloads\penalessalvajes-master\include\clsbutton.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<adnConsts.h>
+	<clsError.h>
+	<clsSprite.h>
+
+1529114786 c:\users\fmansilla\downloads\penalessalvajes-master\include\clsjugador.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<adnConsts.h>
+	<clsButton.h>
+	<clsError.h>
+
+1529114786 c:\users\fmansilla\downloads\penalessalvajes-master\include\clsarco.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<adnConsts.h>
+	<clsButton.h>
+	<clsError.h>
+	<clsFondo.h>
+
+1529114786 c:\users\fmansilla\downloads\penalessalvajes-master\include\clsfondo.h
+	<clsSprite.h>
+	<clsScreen.h>
+	<clsEvent.h>
+	<clsError.h>
+
+1529114786 c:\users\fmansilla\downloads\penalessalvajes-master\include\clsarquero.h
+	"clsJugador.h"
+	"clsError.h"
+	"clsImage.h"
+	"clsEvent.h"
+	"clsScreen.h"
+
+1529114786 c:\users\fmansilla\downloads\penalessalvajes-master\include\clspelota.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<adnConsts.h>
+	<clsButton.h>
+	<clsError.h>
+
+1529114786 c:\users\fmansilla\downloads\penalessalvajes-master\include\clspresentacion.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<adnConsts.h>
+	<clsButton.h>
+	<clsError.h>
+	<clsFondo.h>
+	<clsGame.h>
+
+1529114786 c:\users\fmansilla\downloads\penalessalvajes-master\include\clsmaso.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<adnConsts.h>
+	<clsError.h>
+	<clsSprite.h>
+
+1529114786 source:c:\users\fmansilla\downloads\penalessalvajes-master\src\clsarco.cpp
+	"clsArco.h"
+
+1529114786 source:c:\users\fmansilla\downloads\penalessalvajes-master\src\clsarquero.cpp
+	"clsArquero.h"
+
+1529114786 source:c:\users\fmansilla\downloads\penalessalvajes-master\src\clsbutton.cpp
+	"clsButton.h"
+
+1529114786 source:c:\users\fmansilla\downloads\penalessalvajes-master\src\clsfondo.cpp
+	"clsFondo.h"
+
+1529114786 source:c:\users\fmansilla\downloads\penalessalvajes-master\src\clsjugador.cpp
+	"clsJugador.h"
+
+1529114786 source:c:\users\fmansilla\downloads\penalessalvajes-master\src\clsmotor.cpp
+	"clsMotor.h"
+
+1529114786 source:c:\users\fmansilla\downloads\penalessalvajes-master\src\clspelota.cpp
+	"clsPelota.h"
+
+1529114786 source:c:\users\fmansilla\downloads\penalessalvajes-master\src\clspresentacion.cpp
+	"clsPresentacion.h"
+
+1529348555 source:c:\users\fmansilla\downloads\penalessalvajes-master\src\clsgame.cpp
+	"clsGame.h"
+
+1529508762 source:c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clsaudio.cpp
+	"clsAudio.h"
+
+1529508764 c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clsaudio.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1529508760 c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\adnconsts.h
+	<SDL/SDL.h>
+	<SDL/SDL_video.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<SDL.h>
+	<SDL_video.h>
+	"SDL_image.h"
+	"SDL_ttf.h"
+	"SDL_mixer.h"
+
+1529508770 c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clserror.h
+
+1529508766 source:c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clsdot.cpp
+	"clsDot.h"
+
+1529508768 c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clsdot.h
+	"adnConsts.h"
+
+1529508770 source:c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clserror.cpp
+	<cstring>
+	<iostream>
+	"clsError.h"
+
+1529795216 source:c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clsevent.cpp
+	"clsEvent.h"
+
+1529795244 c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clsevent.h
+	"adnConsts.h"
+
+1529508776 source:c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clsimage.cpp
+	"clsImage.h"
+
+1529508778 c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clsimage.h
+	"adnConsts.h"
+	"clsError.h"
+
+1529508780 source:c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clslog.cpp
+	"clsLog.h"
+
+1529508782 c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clslog.h
+	<cstdio>
+
+1529508784 source:c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clsmode.cpp
+	"clsMode.h"
+
+1529508786 c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clsmode.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1529508788 source:c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clsmusic.cpp
+	"clsMusic.h"
+
+1529508790 c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clsmusic.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1529508792 source:c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clsrandom.cpp
+	"clsRandom.h"
+
+1529508794 c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clsrandom.h
+	<ctime>
+	<cstdlib>
+	<iostream>
+
+1529508796 source:c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clsscreen.cpp
+	"clsScreen.h"
+
+1529508796 c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clsscreen.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1529508798 source:c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clssoundeffect.cpp
+	"clsSoundEffect.h"
+
+1529508800 c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clssoundeffect.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1529508802 source:c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clssprite.cpp
+	"clsSprite.h"
+
+1529508804 c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clssprite.h
+	<iostream>
+	<cstring>
+	"adnConsts.h"
+	"clsError.h"
+	"clsDot.h"
+	"clsImage.h"
+	"clsDot.h"
+	"clsScreen.h"
+
+1529508806 source:c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clstext.cpp
+	"clsText.h"
+
+1529508808 c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clstext.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1529508810 source:c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clstimer.cpp
+	"clsTimer.h"
+
+1529508812 c:\users\francisco mansilla\downloads\penalessalvajes\adn-x\clstimer.h
+	"clsEvent.h"
+
+1529508756 source:c:\users\francisco mansilla\downloads\penalessalvajes\main.cpp
+	<iostream>
+	<adnConsts.h>
+	<clsLog.h>
+	<clsError.h>
+	<clsMotor.h>
+	<clsMaso.h>
+
+1529508864 c:\users\francisco mansilla\downloads\penalessalvajes\include\clsmotor.h
+	<clsError.h>
+	<clsEvent.h>
+	<clsMode.h>
+	<clsScreen.h>
+	<adnConsts.h>
+	<clsGame.h>
+	"clsPresentacion.h"
+
+1529797854 c:\users\francisco mansilla\downloads\penalessalvajes\include\clsgame.h
+	<clsError.h>
+	<clsEvent.h>
+	<clsScreen.h>
+	<clsButton.h>
+	"clsJugador.h"
+	"clsArco.h"
+	"clsArquero.h"
+	"clsPelota.h"
+	"clsGame.h"
+	"clsTimer.h"
+	"clsMensaje.h"
+
+1529791441 c:\users\francisco mansilla\downloads\penalessalvajes\include\clsbutton.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<adnConsts.h>
+	<clsError.h>
+	<clsSprite.h>
+
+1529789170 c:\users\francisco mansilla\downloads\penalessalvajes\include\clsjugador.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<adnConsts.h>
+	<clsButton.h>
+	<clsError.h>
+	<clsRandom.h>
+
+1529792313 c:\users\francisco mansilla\downloads\penalessalvajes\include\clsarco.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<adnConsts.h>
+	<clsButton.h>
+	<clsError.h>
+	<clsFondo.h>
+	<clsJugador.h>
+	<clsArquero.h>
+	<clsTimer.h>
+	<clsPelota.h>
+
+1529508856 c:\users\francisco mansilla\downloads\penalessalvajes\include\clsfondo.h
+	<clsSprite.h>
+	<clsScreen.h>
+	<clsEvent.h>
+	<clsError.h>
+
+1529626757 c:\users\francisco mansilla\downloads\penalessalvajes\include\clsarquero.h
+	"clsJugador.h"
+	"clsError.h"
+	"clsImage.h"
+	"clsEvent.h"
+	"clsScreen.h"
+
+1529792227 c:\users\francisco mansilla\downloads\penalessalvajes\include\clspelota.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<adnConsts.h>
+	<clsButton.h>
+	<clsError.h>
+
+1529508868 c:\users\francisco mansilla\downloads\penalessalvajes\include\clspresentacion.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<adnConsts.h>
+	<clsButton.h>
+	<clsError.h>
+	<clsFondo.h>
+	<clsGame.h>
+
+1529508862 c:\users\francisco mansilla\downloads\penalessalvajes\include\clsmaso.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<adnConsts.h>
+	<clsError.h>
+	<clsSprite.h>
+
+1529797500 source:c:\users\francisco mansilla\downloads\penalessalvajes\src\clsarco.cpp
+	"clsArco.h"
+
+1529788251 source:c:\users\francisco mansilla\downloads\penalessalvajes\src\clsarquero.cpp
+	"clsArquero.h"
+
+1529791441 source:c:\users\francisco mansilla\downloads\penalessalvajes\src\clsbutton.cpp
+	"clsButton.h"
+
+1529508880 source:c:\users\francisco mansilla\downloads\penalessalvajes\src\clsfondo.cpp
+	"clsFondo.h"
+
+1529793501 source:c:\users\francisco mansilla\downloads\penalessalvajes\src\clsgame.cpp
+	"clsGame.h"
+
+1529789170 source:c:\users\francisco mansilla\downloads\penalessalvajes\src\clsjugador.cpp
+	"clsJugador.h"
+
+1529508886 source:c:\users\francisco mansilla\downloads\penalessalvajes\src\clsmotor.cpp
+	"clsMotor.h"
+
+1529794611 source:c:\users\francisco mansilla\downloads\penalessalvajes\src\clspelota.cpp
+	"clsPelota.h"
+
+1529787740 source:c:\users\francisco mansilla\downloads\penalessalvajes\src\clspresentacion.cpp
+	"clsPresentacion.h"
+
+1529797800 c:\users\francisco mansilla\downloads\penalessalvajes\include\clsmensaje.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<adnConsts.h>
+	<clsError.h>
+	<clsSprite.h>
+
+1529797817 source:c:\users\francisco mansilla\downloads\penalessalvajes\src\clsmensaje.cpp
+	"clsMensaje.h"
+

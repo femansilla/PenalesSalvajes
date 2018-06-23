@@ -3,11 +3,10 @@
 #include <clsScreen.h>
 #include <clsEvent.h>
 #include <adnConsts.h>
-#include <clsButton.h>
 #include <clsError.h>
-#include <clsRandom.h>
+#include <clsSprite.h>
 
-class clsJugador  : public clsSprite
+class clsMensaje : public clsSprite
 {
     protected:
         void inherit() {};
@@ -16,16 +15,9 @@ class clsJugador  : public clsSprite
         clsEvent* event;
         clsError error;
 
-        clsRandom random;
-
-        int dificultad, potencia=8, posX, posY = 0;
     public:
         int init(clsScreen *, clsEvent *);
-        void mostrar(int, int);
-        void setDificultad(int);
-        void setPotencia(int);
-        bool patearCOM();
-        bool patear(); //devuelve 1 si fue gol
+        void mostrar(bool);
 };
 
 #endif // CLSJUGADOR_H

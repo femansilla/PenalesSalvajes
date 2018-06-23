@@ -6,16 +6,25 @@
 #include <clsButton.h>
 #include <clsError.h>
 #include <clsFondo.h>
+#include <clsJugador.h>
+#include <clsArquero.h>
+#include <clsTimer.h>
+#include <clsPelota.h>
+
 
 class clsArco : public clsSprite
 {
     private:
         clsScreen* screen;
+        clsJugador player;
         clsEvent* event;
         clsError error;
         clsFondo fondo;
-
-        clsButton matrizArco[5][4];
+        clsArquero arquero;
+        clsTimer timer;
+        clsButton potencyBar[5];
+        clsButton matrizArco[3][3];
+        clsPelota pelota;
         bool gol; //(adentro/afuera)
 
     protected:
@@ -24,8 +33,11 @@ class clsArco : public clsSprite
     public:
         int init(clsScreen *, clsEvent *);
         void mostrarArco();
-        void mostrarPos();
+        void mostrarPos(bool);
+        bool patear();
+        bool atajar();
         bool entro(int posx, int posy, int potencia); //1 si fue adentro del arco
+        int setPotencyBar();
 };
 
 #endif // CLSARCO_H

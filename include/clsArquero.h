@@ -20,7 +20,9 @@ class clsArquero : public clsJugador
                     //		)
      public:
          int init(clsScreen *, clsEvent *);
-         void mostrarArquero();
+         void mostrarArquero(bool);
+         void mostrarArquero(bool,int,int);
+         bool Atajar();
          bool atajar(int posx, int posy, int nivel); //1 si atajo
 
 };
